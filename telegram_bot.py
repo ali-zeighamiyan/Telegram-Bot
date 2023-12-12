@@ -67,9 +67,6 @@ def get_data_formated(dollar_price, mazaneh_price, hobab_price, ons_price):
 
   return example_data
 
-TOKEN = "1104379278:AAGMXNMuzv1pDTWrL_5kRROqZxUgx2oZT5U"
-CHANNEL_ID = "-1002094248892"
-
 
 async def send_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Send 'Hello' message to the specified channel."""
